@@ -216,3 +216,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project-specific: raw/generated data (should not be in version control)
+data/
+reports/
+*.log

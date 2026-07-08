@@ -1,0 +1,20 @@
+from config.settings import settings
+print("Test script started")
+print("Database Settings")
+print("-----------------")
+print("Host:", settings.db_host)
+print("Port:", settings.db_port)
+print("User:", settings.db_user)
+print("Password:", settings.db_password)
+print("Database:", settings.db_name)
+
+print("\nDirectories")
+print("-----------")
+print("Raw Data:", settings.raw_data_dir)
+print("Processed Data:", settings.processed_data_dir)
+print("Reports:", settings.reports_dir)
+
+print("\nLogging")
+print("-------")
+print("Log Level:", settings.log_level)
+print("Log File:", settings.log_file)
